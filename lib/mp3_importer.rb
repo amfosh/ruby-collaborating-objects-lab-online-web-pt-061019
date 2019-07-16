@@ -6,8 +6,7 @@ class MP3Importer
   end
   
   def files
-    Dir.entries(path).select {|entry| entry.include?files = Dir.glob("*.mp3")
-    files
+    Dir.entries(path).select {|entry| entry.include?("mp3")
   end
     
   def import(list_of_filenames)
